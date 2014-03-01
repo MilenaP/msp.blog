@@ -2,6 +2,7 @@
 title: Launching my blog
 date: 2014-03-01 16:15 UTC
 tags: middleman, blog
+category: general
 ---
 
 Hello I am me,
