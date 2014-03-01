@@ -31,6 +31,16 @@ end
 
 page "/feed.xml", layout: false
 
+activate :deploy do |deploy|
+    deploy.method = :git
+    # Optional Settings
+    # deploy.remote   = "custom-remote" # remote name or git url, default: orig$
+    # deploy.branch   = "custom-branch" # default: gh-pages
+    # deploy.strategy = :submodule      # commit strategy: can be :force_push o$
+end
+
+
+
 ###
 # Compass
 ###
